@@ -20,7 +20,7 @@ app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 const server = http.createServer(app);
 
-const port = 5000;
+const port = 80;
 
 server.listen(port);
 
