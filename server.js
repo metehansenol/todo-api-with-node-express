@@ -1,6 +1,9 @@
 const http = require('http');
 const express = require('express');
 
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./swagger.json');
+
 const cors = require('cors');
 
 const itemsRouter = require('./routes/items');
@@ -13,9 +16,7 @@ app.use(express.json());
 
 app.use('/items', itemsRouter);
 
-app.use('/', function(req, res) {
-  res.send('todo api works');
-});
+app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 const server = http.createServer(app);
 
