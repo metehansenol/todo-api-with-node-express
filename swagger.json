@@ -1,9 +1,9 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "This is an experimental todo api. There is no any database system behind it. It holds the item data in memory by temporary. You can use it in your experimental projects. You can find source code of this web api at [https://github.com/metehansenol/todo-api-with-node-express](https://github.com/metehansenol/todo-api-with-node-express)",
+    "description": "This is an experimental Todo Web API. There is no any database system behind it. It holds the item data in memory. You can use it in your experimental projects. You can find source code of this web api at [https://github.com/metehansenol/todo-api-with-node-express](https://github.com/metehansenol/todo-api-with-node-express)",
     "version": "1.0.0",
-    "title": "Todo API",
+    "title": "Todo Web API",
     "contact": {
       "email": "metehansenol@gmail.com"
     },
@@ -12,8 +12,7 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   },
-  "host": "petstore.swagger.io",
-  "basePath": "/v2",
+  "host": "todowebapi.herokuapp.com",
   "tags": [
     {
       "name": "items",
@@ -237,6 +236,6 @@
   },
   "externalDocs": {
     "description": "Find out more about this API",
-    "url": "http://swagger.io"
+    "url": "https://medium.com/@metehansenol/creating-a-restful-web-api-with-node-js-and-express-js-from-scratch-9ba6e21d58b9?source=friends_link&sk=55890ea51731640749f882c41135af65"
   }
 }
