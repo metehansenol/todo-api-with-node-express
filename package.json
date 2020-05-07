@@ -6,7 +6,8 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
     "chai": "^4.2.0",

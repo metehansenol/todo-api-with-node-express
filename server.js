@@ -1,9 +1,13 @@
 const http = require('http');
 const express = require('express');
 
+const cors = require('cors');
+
 const itemsRouter = require('./routes/items');
 
 const app = express();
+
+app.use(cors());
 
 app.use(express.json());
 
@@ -15,7 +19,7 @@ app.use('/', function(req, res) {
 
 const server = http.createServer(app);
 
-const port = 3000;
+const port = 5000;
 
 server.listen(port);
 
