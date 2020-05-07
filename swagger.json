@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "This is an experimental todo web api. There is no any database system behind it. It holds the item data in memory. You can use it in your experimental projects. You can find source code of this web api at [https://github.com/metehansenol/todo-api-with-node-express](https://github.com/metehansenol/todo-api-with-node-express)",
+    "description": "This is an experimental Todo Web API. There is no any database system behind it. It holds the item data in memory. You can use it in your experimental projects. You can find source code of this web api at [https://github.com/metehansenol/todo-api-with-node-express](https://github.com/metehansenol/todo-api-with-node-express)",
     "version": "1.0.0",
     "title": "Todo Web API",
     "contact": {
