@@ -55,7 +55,8 @@ router.put('/:id', function (req, res) {
       id: found.id,
       title: req.body.title,
       order: req.body.order,
-      completed: req.body.completed
+      completed: req.body.completed,
+      createdOn: req.body.createdOn
     };
 
     let targetIndex = data.indexOf(found);
